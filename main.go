@@ -111,6 +111,6 @@ func main() {
 	http.HandleFunc("/getUser", getUser)
 	http.HandleFunc("/updateUser", updateUser)
 
-	fmt.Println("Server is running on port 8080")
+	fmt.Println("Server is running on port 3000")
 	http.ListenAndServe(":3000", nil)
 }
